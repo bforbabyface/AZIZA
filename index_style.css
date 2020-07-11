@@ -1,0 +1,143 @@
+body{
+    background: url(absurdity.png);
+    background-color:#e0e03a;
+    font-family: raleway, sans-serif;
+}
+
+#top-section{
+    background: url(axiom-pattern.png);
+    background-color: #d6d976;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border: 2px dashed #44BAF4;
+    border-radius: 30px;
+    
+}
+#main-header {
+    font-family: rakkas, cursive;
+    color:#203884;
+    font-size: 6em;
+    letter-spacing: px;
+    text-align: center;
+    margin-bottom: -80px;
+    margin-top: -3px;
+    animation-name: fade-in;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+    }
+     100%{
+        opacity: 0.8;
+}
+}
+
+.sub-text
+        {
+    font-family: raleway, cursive;
+    color: #3028ef;
+    font-size:35px;
+    text-align: center;
+    margin-bottom: -2px; 
+    letter-spacing: 5px;
+            
+}
+
+.small {
+    margin: auto;
+    font-size: 25px;
+}
+
+
+.main-image {
+    width:700px;
+    border: 7px solid #5d5412; 
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-mailing-list{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 3px;
+    border:2px solid #5d5412;
+    border-radius: 5px;
+    color: #5d5412;
+    background-color: #d6d976;
+}
+
+.button-mailing-list:hover {
+    animation-name: mailinglist;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mailinglist{
+    100% {
+        background-color:rgba(224, 224, 58, 0.59);
+    }
+}
+
+#subscribe {
+    float: right;
+    position: relative;
+    right:90px;
+    bottom: 60px;
+    
+}
+
+
+#nav-bar-links{
+    list-style: none;
+    margin-top:20px;
+    margin-left: 90px;
+    padding:5px;
+    position: relative;
+    background-color:#D8C325;
+    overflow: hidden;
+    width:200px;
+    animation-name: fade-in-nav-bar;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-nav-bar{
+    0% {
+        opacity: 0;
+        left:0%;
+    }
+    100%{
+        opacity: .7;
+        left:47%;
+    }
+}
+
+
+li {
+  text-align: center;
+    display: inline;
+}
+
+
+li a{
+    font-size: 20px;
+    color: #5d5412;
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #D8C325; 
+}
+
+li a:hover{
+    background-color: rgba(224, 224, 58, 0.59); 
+
+}

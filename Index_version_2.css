@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+    color:#000000;
+}
+
+header {
+    text-align: center;
+}
+
+#main-header {
+    animation-duration: 5s;
+    animation-name: fade-in;
+    font-size: 7vw;
+    margin: -10px 0 -5px 0; 
+}
+
+.sub-text {
+    animation-duration: 5s;
+    animation-name: fade-in-2;
+    font-size: 3vw;
+    margin-top: -5px;
+    text-align: center;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-in-2 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    70% {opacity: 0.5}
+    100% {opacity: 1;}
+}
+
+.main-image {
+
+    display: block;
+    margin: -10px auto -20px auto;
+    max-width: 100%;
+    opacity: 0.5;   
+}
+
+.main-image:hover {
+    
+    opacity: 1;
+}
